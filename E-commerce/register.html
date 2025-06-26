@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./assests/css/style.css"> -->
+     <link rel="stylesheet" href="./assests/css/style.css">
+     <link rel="stylesheet" href="./assests/css/register-login.css">
+    
+</head>
+
+<body>
+
+    <div id="navbar-placeholder"></div>
+    <section>
+        <div class="registerContainer">
+            <div class="registerParent">
+                <div class="sideImage">
+                    <img src="./assests/images/side-image.png" alt="" class="registerImg">
+
+                </div>
+                <div class="registerForm">
+
+                    <div class="sideForm">
+                        <h2 class="formTitle">Create an account</h2>
+                        <p class="formText">Enter your details below</p>
+                        <form action="" onsubmit="registerUser(event)">
+                            <div class="form-wrapper">
+                                <div class="form-box">
+                              
+                                    <input type="text" id="name" name="name" placeholder="Name">
+                                </div>
+                                <div class="form-box">
+                          
+                                    <input type="text" id="email" name="email" placeholder="Email">
+                                </div>
+                              
+                                <div class="form-box">
+                                
+                                    <input type="password" id="password" name="password" placeholder="password">
+                                </div>
+
+                                <button class="primaryBtn" id="registerBtn">Create Account</button>
+                                <button id="signUp-google"> <img src="./assests/images/Icon-Google.png" alt="" class="googleImg"> Sign up with Google</button>
+
+                                <p class="loginLink">Already have account? <a href="login.html">Log in</a></p>
+                            </div>
+
+
+                        </form>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <script src="./assests/js/register-login.js"></script>
+
+</body>
+
+</html>

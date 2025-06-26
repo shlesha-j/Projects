@@ -1,0 +1,158 @@
+.dark,
+.dark .toggle-span {
+    transition: .3s ease-in-out
+}
+
+.dark .hero-content .btn,
+.dark .item .blog-content .radius {
+    color: #fff;
+    border: 1px solid #fff
+}
+
+.dark .card:hover,
+.dark .price:hover {
+    box-shadow: 0 4px 10px rgba(236, 231, 231, .74)
+}
+
+.dark {
+    background: #000
+}
+
+.dark .toggle-span {
+    left: 30px
+}
+
+.dark .checkboxes legend,
+.dark .contact p a,
+.dark .contact-form p,
+.dark .dropdown-label,
+.dark .form .contact,
+.dark .hero-content,
+.dark .hero-heading,
+.dark .hero-subheading,
+.dark .info,
+.dark .info button,
+.dark .intro-content,
+.dark .nav-item .nav-links,
+.dark .num,
+.dark .num i,
+.dark .portfolio .work-tabs ul li a,
+.dark .radios legend,
+.dark .services .design .service-content,
+.dark .services .svc-tab .svc-tab-title,
+.dark .services .svc-tab a i,
+.dark .skill-heading,
+.dark .skill-subheading,
+.dark .skill-title,
+.dark .skills .percentage,
+.dark .topic-heading,
+.dark .topic-subheading {
+    color: #fff
+}
+
+.dark .form,
+.dark .hero,
+.dark .portfolio {
+    background-color: #000
+}
+
+.dark .blogs,
+.dark .form .bottom .contact-form,
+.dark .intro,
+.dark .pricing .price,
+.dark .reviews,
+.dark .section.creative-minds,
+.dark .services .design {
+    background-color: #272626
+}
+
+.dark .cards .card,
+.dark .tab {
+    background-color: #272626;
+    color: #fff
+}
+
+.dark .cards,
+.dark .pricing,
+.dark .services {
+    background: #000
+}
+
+.dark .blog-img img,
+.dark .intro-img,
+.dark .numbers,
+.dark .photo img,
+.dark .portfolio .img img,
+.dark .services img {
+    filter: grayscale(100%)
+}
+
+.dark .pricing .price {
+    color: #fff
+}
+
+.dark .item .blog-content {
+    background-color: #000;
+    color: #fff
+}
+
+.dark footer {
+    background-color: #0f0f0f
+}
+
+.dark .line {
+    border-bottom: 2px solid #fff
+}
+
+.dark .card-heading::after {
+    background-color: #fff
+}
+
+.dark .numbers .str::after,
+.dark .vertical::after {
+    background: #fff
+}
+
+.dark button:focus-visible {
+    border: 1px solid #fff
+}
+
+.dark .questions {
+    background: #1d1c1c
+}
+
+.dark .accordion-btn,
+.dark .accordion-content {
+    background: #000;
+    color: #ccc
+}
+
+.dark .accordion-btn {
+    border-bottom: 1px solid #ccc
+}
+
+.dark .accordion-icon {
+    border: solid grey;
+    border-width: 0 2px 2px 0
+}
+
+.dark label {
+    color: #000
+}
+
+.dark .radio[aria-checked=true]::after {
+    content: ''
+}
+
+.dark .checkbox.focus {
+    outline: white solid 2px;
+    outline-offset: 2px
+}
+
+.dark .intro-heading {
+    color: #ffff
+}
+
+.dark .price:hover {
+    transform: translateY(-10px)
+}

@@ -1,0 +1,142 @@
+.dark {
+    background: #171717;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+/*--------- navbar -----------*/
+.dark .darkModeBtn svg path{
+    fill: white;
+}
+
+.dark .hero-wrapper{
+    background-color: #171717;
+
+}
+
+.dark .darkModeBtn {
+  background: #262626;
+  border: 1px solid #737373;
+}
+
+
+.dark .nav-link{
+    color: white;
+}
+
+.dark .ham-menu span{
+    background: white;
+}
+
+.dark .btn{
+    background: #DDD6FE;
+    color: #4C1D95;
+    transition: all 0.3s ease;
+}
+
+.dark .btn:hover{
+    background: #4C1D95;
+    color: #DDD6FE;
+}
+
+.dark .logo svg path{
+    fill: white;
+}
+
+.dark .tian-nav{
+    background-color: transparent;
+}
+
+.dark .nav-shadow{
+    background: black;
+}
+
+
+.dark .hero-title{
+    color: white;
+
+}
+
+.dark .hero-subtitle{
+    color: #A3A3A3;
+}
+
+.dark .watchBtn{
+    background: transparent;
+    
+    color: #DDD6FE;
+}
+
+
+.dark .watchBtn svg path{
+    stroke: #DDD6FE;
+}
+
+.dark .popular-course{
+    background: #171717;
+}
+
+.dark .courseCard{
+    background: #262626;
+    border: 1px solid #737373;
+}
+
+.dark .author{
+    color: #A3A3A3;
+}
+
+.dark .courseDuration svg path{
+    stroke: #D4D4D4;
+}
+
+.dark .price, .value, .discount, .discount-label{
+    color: #A3A3A3;
+}
+
+
+.dark .feature-section{
+    background: #262626;
+}
+
+.dark .featureDescription{
+    color: #A3A3A3;
+}
+
+.dark .tian-footer{
+    background: #171717;
+}
+.dark .footer-social a{
+    background: #171717;
+    transition: fill 0.3s ease, stroke 0.3s ease, box-shadow 0.5s ease;
+}
+
+.dark .footer-social svg path{
+    fill: #D4D4D4;
+    stroke: black;
+}
+
+/* .dark .footer-social a svg{
+    color: #D4D4D4;
+} */
+
+.dark .footer-col h4{
+    color: #FAFAFA;
+}
+
+.dark .footer-col ul li a{
+    color: #FAFAFA;
+}
+
+
+.dark .underline-animate::after{
+    content: '';
+    background: #DDD6FE;
+}
+
+.dark .footer-social a:hover {
+  background: #DDD6FE;
+}
+.dark .footer-social a:hover svg path{
+  fill: #4C1D95;
+  stroke: #DDD6FE;
+}

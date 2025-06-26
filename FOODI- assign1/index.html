@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assests/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container foodi-nav">
+          <div class="logo">
+            <a href="#">
+              <img
+                class="foodi-logo"
+                src="./assests/images/logo.jpg"
+                alt="Logo"
+                width="108"
+                height="41"
+            /></a>
+          </div>
+          <div class="collapse" id="nav-menu">
+            <ul class="nav-list">
+              <li class="nav-items">
+                <a href="#homeId" class="nav-links" title="home">Home</a>
+              </li>
+              <li class="nav-items">
+                <a href="#menuId" class="nav-links" title="menu">Menu</a>
+              </li>
+              <li class="nav-items">
+                <a href="#servicesId" class="nav-links" title="services"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-items">
+                <a href="#offersId" class="nav-links" title="offers">Offers</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nav-icons">
+            <img
+              class="search"
+              src="./assests/images/icon _search_.png"
+              alt="Search Icon"
+              width="32"
+              height="32"
+            />
+            <div class="cart">
+              <img
+                src="./assests/images/fi-rr-shopping-bag.png"
+                alt="ShoppingBag Icon"
+                width="24"
+                height="24"
+              />
+              <span class="badge">8</span>
+            </div>
+            <button class="primaryBtn contact-btn">
+              <img
+                class="contact-icon"
+                src="./assests/images/fi-rr-phone-call.png"
+                alt="Phone Icon"
+                width="25"
+                height="20"
+              />Contact
+            </button>
+          </div>
+
+          <div class="nav-toggle" id="nav-toggle">
+            <img
+              src="./assests/images/Frame.png"
+              alt="ToggleBtn"
+              width="24"
+              height="24"
+            />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="banner">
+          <div class="hero-text">
+            <div class="hero-content">
+              <h1 class="hero-heading">
+                Dive into Delights Of Delectable <span class="food">Food</span>
+              </h1>
+              <p class="hero-subheading">
+                Where Each Plate Weaves a Story of Culinary Mastery and
+                Passionate Craftsmanship
+              </p>
+            </div>
+
+            <div class="hero-buttons">
+              <button class="order-btn">Order Now</button>
+              <button class="play-btn">
+                Watch Video
+                <img
+                  class="play-button"
+                  src="./assests/images/play-icon.png"
+                  alt="PlayButton" width="80" height="80"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img
+              class="hero-img"
+              src="./assests/images/hero-img.png"
+              alt="Hero Image"
+              width="295"
+              height="325"/>
+
+            <img
+              class="hero-subImage"
+              src="./assests/images/hero-subimg.png"
+              alt="Floating Image"
+              width="350"
+              height="169"/>
+
+            <div class="hero-menu">
+              <div class="rectangle">
+                <img class="rectangle-background" src="./assests/images/rectangle.png" alt="" width="349" height="181"/>
+                <img class="card-img"
+                  src="./assests/images/rectangle-menu-img.jpg"
+                  alt="Spicy Noodles" width="75" height="75"/>
+                <div class="menu-details">
+                  <p class="card-menu-title">Spicy noodles</p>
+                  <div class="menu-rating">
+                    <img src="./assests/images/fi-sr-star.png" alt="rating" height="16" width="16">
+                    <img src="./assests/images/fi-sr-star.png" alt="rating" height="16" width="16">
+                    <img src="./assests/images/fi-sr-star.png" alt="rating"  height="16" width="16">
+                    <img src="./assests/images/fi-br-star.png" alt="rating" height="16" width="16">
+                    <img src="./assests/images/fi-br-star.png" alt="rating" height="16" width="16">
+
+                  </div>
+                  <p class="menu-price"><span>$</span>18.00</p>
+                </div>
+              </div>
+
+              <div class="rectangle">
+                <img class="rectangle-background" src="./assests/images/rectangle.png" alt="" width="349" height="181"/>
+                <img class="card-img"
+                  src="./assests/images/rectangle-menu-img2.jpg"
+                  alt="Vegetarian Salad" width="75" height="75"/>
+                <div class="menu-details">
+                  <p class="card-menu-title">Vegetarian salad</p>
+                  <div class="menu-rating">
+                    <img src="./assests/images/fi-sr-star.png" alt="rating" height="16" width="16">
+                    <img src="./assests/images/fi-sr-star.png" alt="rating" height="16" width="16">
+                    <img src="./assests/images/fi-sr-star.png" alt="rating" height="16" width="16">
+                    <img src="./assests/images/fi-sr-star.png" alt="rating" height="16" width="16">
+                    <img src="./assests/images/fi-br-star.png" alt="rating" height="16" width="16">
+
+                  </div>
+                  <p class="menu-price"><span>$</span>23.00</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="responsive-hero-menu">
+              <div class="food-card">
+                <img class="food-img" src="./assests/images/rectangle-menu-img.jpg" alt="">
+                <div class="food-card-details">
+                  <p class="food-title">Spicy noodles</p>
+                  <div class="food-rating">
+                    <img src="./assests/images/fi-sr-star.png" alt="rating">
+                     <img src="./assests/images/fi-sr-star.png" alt="rating">
+                      <img src="./assests/images/fi-sr-star.png" alt="rating">
+                       <img src="./assests/images/fi-br-star.png" alt="rating">
+                        <img src="./assests/images/fi-br-star.png" alt="rating">
+                  </div>
+                  <p class="food-price"><span>$</span>18.00</p>
+                </div>
+                
+
+              </div>
+              <div class="food-card">
+                <img class="food-img" src="./assests/images/rectangle-menu-img2.jpg" alt="">
+                <div class="food-card-details">
+                  <p class="food-title">Vegetarian salad</p>
+                  <div class="food-rating">
+                    <img src="./assests/images/fi-sr-star.png" alt="rating">
+                     <img src="./assests/images/fi-sr-star.png" alt="rating">
+                      <img src="./assests/images/fi-sr-star.png" alt="rating">
+                       <img src="./assests/images/fi-sr-star.png" alt="rating">
+                        <img src="./assests/images/fi-br-star.png" alt="rating">
+                  </div>
+                  <p class="food-price"><span>$</span>18.00</p>
+                </div>
+                
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+         
+
+      </div>
+    </section>
+
+    <section>
+      <div class="container popular-categories">
+        <div class="title">
+          <h2 class="heading">Customer Favorites</h2>
+          <p class="subheading">Popular Categories</p>
+        </div>
+        <div class="category-cards">
+          <div class="card">
+            <div class="card-item">
+              <img
+                src="./assests/images/pngwing 4.png"
+                alt="Main Dishes"
+                width="139"
+                height="102"
+              />
+            </div>
+            <div class="card-details">
+              <h3 class="card-topic">Main Dish</h3>
+              <p class="card-subtopic">(86 dishes)</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-item">
+              <img
+                src="./assests/images/pngwing 6.png"
+                alt="BreakFast"
+                width="110"
+                height="72"
+              />
+            </div>
+            <div class="card-details">
+              <h3 class="card-topic">Break Fast</h3>
+              <p class="card-subtopic">(12 break fast)</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-item">
+              <img
+                src="./assests/images/pngwing 3.png"
+                alt="Dessert"
+                width="111"
+                height="98"
+              />
+            </div>
+            <div class="card-details">
+              <h3 class="card-topic">Dessert</h3>
+              <p class="card-subtopic">(48 dessert)</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-item">
+              <img
+                src="./assests/images/pngwing 7.png"
+                alt="All"
+                width="77"
+                height="92"
+              />
+            </div>
+            <div class="card-details">
+              <h3 class="card-topic">Browse All</h3>
+              <p class="card-subtopic">(255 items)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container menu-container">
+        <div class="title">
+          <h2 class="heading">Special Dishes</h2>
+          <p class="subheading">Standout Dishes From Our Menu</p>
+        </div>
+
+        <div class="swiper">
+          <div class="swiper-wrapper menu-cards">
+            <div class="swiper-slide menu-box">
+              <div class="oval">
+                <img
+                  src="./assests/images/fi-sr-heart.png"
+                  alt="Heart Image"
+                  width="24"
+                  height="24"
+                />
+              </div>
+              <div class="dish">
+                <img
+                  class="salad"
+                  src="./assests/images/fattoush salad.jpg"
+                  alt="Fattoush salad"
+                  width="276"
+                  height="276"
+                />
+              </div>
+              <div class="dish-details">
+                <h3 class="card-topic">Fattoush salad</h3>
+                <p class="card-subtopic">Description of the item</p>
+                <div class="dish-info">
+                  <p class="dish-price"><span>$</span>24.00</p>
+                  <span class="rating"
+                    ><img
+                      src="./assests/images/fi-sr-star.png"
+                      alt="rating"
+                      width="24"
+                      height="24"
+                    />4.9</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide menu-box">
+              <div class="oval">
+                <img
+                  src="./assests/images/fi-sr-heart.png"
+                  alt="Heart"
+                  width="24"
+                  height="24"
+                />
+              </div>
+              <div class="dish">
+                <img
+                  class="salad"
+                  src="./assests/images/Vegetable salad.jpg"
+                  alt="Vegetable salad"
+                  width="276"
+                  height="276"
+                />
+              </div>
+              <div class="dish-details">
+                <h3 class="card-topic">Vegetable salad</h3>
+                <p class="card-subtopic">Description of the item</p>
+                <div class="dish-info">
+                  <p class="dish-price"><span>$</span>26.00</p>
+                  <span class="rating"
+                    ><img
+                      src="./assests/images/fi-sr-star.png"
+                      alt="rating"
+                      width="24"
+                      height="24"
+                    />4.6</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide menu-box">
+              <div class="oval">
+                <img
+                  src="./assests/images/fi-sr-heart.png"
+                  alt="Heart"
+                  width="24"
+                  height="24"
+                />
+              </div>
+              <div class="dish">
+                <img
+                  class="salad"
+                  src="./assests/images/Egg salad.jpg"
+                  alt="Egg vegi salad"
+                  width="276"
+                  height="276"
+                />
+              </div>
+              <div class="dish-details">
+                <h3 class="card-topic">Egg vegi salad</h3>
+                <p class="card-subtopic">Description of the item</p>
+                <div class="dish-info">
+                  <p class="dish-price"><span>$</span>23.00</p>
+                  <span class="rating"
+                    ><img
+                      src="./assests/images/fi-sr-star.png"
+                      alt="rating"
+                      width="24"
+                      height="24"
+                    />4.5</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div> -->
+          <div class="swiper-nav-buttons">
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container testimonial">
+        <div class="title testimonial-title responsive-title">
+          <h2 class="heading left-align">Testimonials</h2>
+          <p class="subheading left-align">What Our Customers Say About Us</p>
+        </div>
+        <div class="testimonial-person">
+          <img
+            class="chef-img"
+            src="./assests/images/best-chef.png"
+            alt="Chef"
+            width="506"
+            height="647"
+          />
+        </div>
+        <div class="testimonial-details">
+          <div class="title testimonial-title">
+            <h2 class="heading left-align">Testimonials</h2>
+            <p class="subheading left-align">What Our Customers Say About Us</p>
+          </div>
+          <p class="testimonial-info">
+            “I had the pleasure of dining at Foodi last night, and I'm still
+            raving about the experience! The attention to detail in presentation
+            and service was impeccable”
+          </p>
+
+          <div class="customer-review">
+            <div class="customer-profile">
+              <img
+                src="./assests/images/customer3.jpg"
+                alt="Customer"
+                width="80"
+                height="80"
+                class="profile profile-1"
+              />
+              <img
+                src="./assests/images/customer1.jpg"
+                alt="Customer"
+                width="80"
+                height="80"
+                class="profile profile-2"
+              />
+              <img
+                src="./assests/images/customer2.jpg"
+                alt="Customer"
+                width="80"
+                height="80"
+                class="profile profile-3"
+              />
+            </div>
+            <div class="customer-feedback">
+              <h3>Customer Feedback</h3>
+              <div class="customer-rating">
+                <img
+                  class="star-img"
+                  src="./assests/images/fi-sr-star.png"
+                  alt="rating"
+                  width="24"
+                  height="24"
+                />
+                <span class="rate">4.9</span>
+                <p class="reviews">(18.6k Reviews)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container culinary-container">
+        <div class="culinary-journey">
+          <div class="culinary-title">
+            <h2 class="heading left-align">Our Story & Services</h2>
+            <p class="subheading left-align">
+              Our Culinary Journey And Services
+            </p>
+          </div>
+          <p class="culinary-details">
+            Rooted in passion, we curate unforgettable dining experiences and
+            offer exceptional services, blending culinary artistry with warm
+            hospitality.
+          </p>
+
+          <button class="primaryBtn explore-btn">Explore</button>
+        </div>
+        <div class="services">
+          <div class="service-cards">
+            <div class="service-card">
+              <div class="service-icon">
+                <img
+                  src="./assests/images/fi-rr-salad.png"
+                  alt="Catering"
+                  width="64"
+                  height="64"
+                />
+              </div>
+              <div class="service-details">
+                <h3>Catering</h3>
+                <p>Delight your guests with our flavors and presentation</p>
+              </div>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <img
+                  src="./assests/images/fi-rr-time-fast.png"
+                  alt="Fast delivery"
+                  width="64"
+                  height="64"
+                />
+              </div>
+              <div class="service-details">
+                <h3>Fast delivery</h3>
+                <p>We deliver your order promptly to your door</p>
+              </div>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <img
+                  src="./assests/images/fi-rr-shopping-cart-check.png"
+                  alt="Online Ordering"
+                  width="64"
+                  height="64"
+                />
+              </div>
+              <div class="service-details">
+                <h3>Online Ordering</h3>
+                <p>Explore menu & order with ease using our Online Ordering</p>
+              </div>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <img
+                  src="./assests/images/fi-rr-gift.png"
+                  alt="Gift Cards"
+                  width="64"
+                  height="64"
+                />
+              </div>
+              <div class="service-details">
+                <h3>Gift Cards</h3>
+                <p>Give the gift of exceptional dining with Foodi Gift Cards</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="primaryBtn explore-btn responsive-btn">Explore</button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container foodi-footer">
+        <div class="main-footer">
+          <div class="foodi-summary">
+            <a href=""
+              ><img class="foodi-logo"
+                src="./assests/images/logo.jpg"
+                alt="Logo"
+                width="108"
+                height="41"
+            /></a>
+
+            <p class="summary">
+              Savor the artistry where every dish is a culinary masterpiece
+            </p>
+          </div>
+
+         <div class="footer-links">
+           <div class="useful-links">
+            <h4 class="term">Useful links</h4>
+            <ul class="links">
+              <li class="links-list"><a href="">About us</a></li>
+              <li class="links-list"><a href="">Events</a></li>
+              <li class="links-list"><a href="">Blogs</a></li>
+              <li class="links-list"><a href="">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="main-menu">
+            <h4 class="term">Main Menu</h4>
+            <ul class="menu">
+              <li class="menu-list"><a href="">Home</a></li>
+              <li class="menu-list"><a href="">Offers</a></li>
+              <li class="menu-list"><a href="">Menus</a></li>
+              <li class="menu-list"><a href="">Reservation</a></li>
+            </ul>
+          </div>
+         </div>
+
+          <div class="contact-us">
+            <h4 class="term">Contact Us</h4>
+            <ul class="contact">
+              <li class="contact-list"><a href="mailto:example@email.com">example@email.com</a></li>
+              <li class="contact-list"><a href="callto:+64 958 248 966">+64 958 248 966</a></li>
+              <li class="contact-list"><a href="">Social media</a></li>
+    
+            </ul>
+          </div>
+        </div>
+        <div class="sub-footer">
+          <div class="socials">
+            <a href="" class="facebook">
+            <svg width="18" height="29" viewBox="0 0 18 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 2H12.1818C10.4941 2 8.8754 2.67045 7.68209 3.86387C6.48863 5.05728 5.81818 6.6759 5.81818 8.36364V12.1818H2V17.2727H5.81818V27.4545H10.9091V17.2727H14.7273L16 12.1818H10.9091V8.36364C10.9091 8.02608 11.0432 7.70237 11.2819 7.46368C11.5205 7.225 11.8443 7.09091 12.1818 7.09091H16V2Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>  
+            </a>
+            <a href="" class="instagram"
+              ><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 17.8891C15.7 17.8891 17.8889 15.7002 17.8889 13.0002C17.8889 10.3002 15.7 8.11133 13 8.11133C10.3 8.11133 8.11115 10.3002 8.11115 13.0002C8.11115 15.7002 10.3 17.8891 13 17.8891Z" stroke="#484848" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 17.8889V8.11111C2 4.73604 4.73604 2 8.11111 2H17.8889C21.2639 2 24 4.73604 24 8.11111V17.8889C24 21.2639 21.2639 24 17.8889 24H8.11111C4.73604 24 2 21.2639 2 17.8889Z" stroke="#484848" stroke-width="2.5"/>
+<path d="M19.7222 6.29069L19.7351 6.27637" stroke="#484848" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a>
+            <a href="" class="twitter"
+              ><svg width="30" height="25" viewBox="0 0 30 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M28 2.01189C28 2.01189 25.6152 3.42075 24.2891 3.82007C23.5773 3.00167 22.6314 2.42161 21.5792 2.15834C20.527 1.89508 19.4194 1.96129 18.4061 2.34806C17.3928 2.73482 16.5227 3.42345 15.9135 4.32082C15.3043 5.2182 14.9855 6.28101 15 7.36552V8.54734C12.9231 8.60119 10.8651 8.14057 9.00937 7.2065C7.1536 6.27243 5.55765 4.89391 4.36364 3.19371C4.36364 3.19371 -0.363636 13.8301 10.2727 18.5574C7.83881 20.2095 4.93937 21.0379 2 20.921C12.6364 26.8301 25.6364 20.921 25.6364 7.33007C25.6353 7.00087 25.6036 6.67249 25.5418 6.34916C26.748 5.15965 28 2.01189 28 2.01189Z" stroke="#484848" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a>
+            <a href="" class="youtube"
+              ><svg width="31" height="23" viewBox="0 0 31 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.2 11.5855L13.475 14.2855V8.8855L18.2 11.5855Z" fill="#484848" stroke="#484848" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2 12.5403V10.6299C2 6.72115 2 4.76681 3.22241 3.50933C4.44484 2.25184 6.36936 2.19741 10.2184 2.08855C12.0423 2.03696 13.9054 2 15.5 2C17.0946 2 18.9578 2.03696 20.7816 2.08855C24.6306 2.19741 26.5551 2.25184 27.7776 3.50933C29 4.76681 29 6.72115 29 10.6299V12.5403C29 16.4489 29 18.4033 27.7776 19.6607C26.5551 20.9182 24.6307 20.9726 20.7817 21.0816C18.9578 21.1331 17.0946 21.1701 15.5 21.1701C13.9054 21.1701 12.0422 21.1331 10.2183 21.0816C6.36929 20.9726 4.44481 20.9182 3.2224 19.6607C2 18.4033 2 16.4489 2 12.5403Z" stroke="#484848" stroke-width="2.5"/>
+</svg></a>
+          </div>
+
+          <div class="copyright">
+            <p class="copyR-title" tabindex="0">
+              Copyright
+              <span
+                ><img class="copyright-img"
+                  src="./assests/images/fi-rr-copyright.png"
+                  alt="copyright"
+                  width="18"
+                  height="18"
+              /></span>
+              2023 Dscode | All rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assests/js/script.js"></script>
+    <script src="./assests/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,247 @@
+.dark {
+    background: black;
+    transition: all 0.3s ease-in-out;
+}
+.dark .toggle-span {
+    left: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.dark .topic-heading{
+    color: white;
+}
+
+.dark .topic-subheading {
+    color: white;
+}
+.dark .nav-item .nav-links {
+    color: white;
+}
+.dark .hero {
+    background-color: black;
+}
+.dark .hero-content {
+    color: white;
+}
+.dark .hero-content .btn {
+    color: white;
+    border: 1px solid white;
+}
+
+.dark .hero-heading{
+    color: white;
+}
+
+.dark .hero-subheading{
+    color: white;
+}
+
+
+.dark .intro {
+    background-color: #272626;
+}
+.dark .intro-content {
+    color: white;
+}
+.dark .tab {
+    background-color: #272626;
+    color: white;
+}
+.dark .info {
+    color: white;
+}
+.dark .info button {
+    color: white;
+}
+.dark .cards {
+    background: black;
+}
+.dark .cards .card {
+    background-color: #272626;
+    color: white;
+}
+/* .dark .creative_minds {
+    background-color: #272626;
+    background-color: rgb(39, 38, 38)
+} */
+
+.dark .section.creative-minds{
+    background-color: rgb(39, 38, 38);
+}
+
+.dark .skill-heading, .dark .skill-subheading {
+    color: white;
+}
+.dark .skill-title {
+    color: white;
+}
+.dark .skills .percentage {
+    color: white;
+}
+.dark .num {
+    color: white;
+}
+.dark .num i {
+    color: white;
+}
+.dark .services {
+    background: black;
+}
+.dark .services .svc-tab a i, 
+.dark .services .svc-tab .svc-tab-title {
+    color: white;
+}
+.dark .services .design {
+    background-color: #272626;
+}
+.dark .services .design .service-content {
+    color: white;
+}
+.dark .portfolio {
+    background-color: black;
+}
+.dark .portfolio .work-tabs ul li a {
+    color: white;
+}
+.dark .portfolio .img img {
+    filter: grayscale(100%);
+}
+.dark .reviews {
+    background-color: #272626;
+}
+.dark .pricing{
+    background: black;
+}
+
+.dark .pricing .price {
+    color: white;
+    background-color: rgb(39, 38, 38)
+}
+.dark .blogs {
+    background-color: #272626;
+}
+.dark .item .blog-content {
+    background-color: black;
+    color: white;
+}
+.dark .item .blog-content .radius {
+    border: 1px solid white;
+    color: white;
+}
+.dark .form {
+    background-color: black;
+}
+.dark .form .contact {
+    color: white;
+}
+
+.dark .contact p a{
+    color: white;
+}
+
+.dark .form .bottom .contact-form {
+    background-color: #272626;
+}
+.dark footer {
+    background-color: #0f0f0f;
+}
+.dark .numbers {
+    filter: grayscale(100%);
+}
+.dark .line {
+    border-bottom: 2px solid white;
+}
+.dark .card-heading::after {
+    background-color: white;
+}
+.dark .numbers .str::after {
+    background: white;
+}
+.dark .vertical::after {
+    background: white;
+}
+
+.dark .intro-img{
+    filter: grayscale(100%);
+}
+.dark .photo img{
+    filter: grayscale(100%);
+}
+.dark .services img {
+    filter: grayscale(100%);
+}
+
+.dark .blog-img img {
+    filter: grayscale(100%);
+}
+
+.dark button:focus-visible {
+    border: 1px solid white;
+}
+
+.dark .questions{
+    background: #1d1c1c;
+}
+
+.dark .accordion-btn{
+    background: black;
+    color: #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.dark .accordion-content{
+    background: black;
+    color: #ccc;
+}
+
+.dark .accordion-icon{
+    border:  solid grey;
+    border-width: 0 2px 2px 0;
+}
+
+.dark label{
+    color: black;
+}
+
+.dark .dropdown-label{
+    color: white;
+}
+
+.dark .radios legend{
+    color: white;
+}
+.dark .checkboxes legend{
+    color: white;
+}
+
+
+
+.dark .contact-form p{
+    color: white;
+}
+
+.dark .radio[aria-checked="true"]::after{
+    content: '';
+    /* width: 15px;
+    height: 15px;
+    border-radius: 50%; */
+    /* background: rgb(80, 78, 78); */
+    /* position: absolute; */
+}
+
+.dark .checkbox.focus{
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+.dark .intro-heading {
+    color: #ffff;
+    
+}
+.dark .card:hover {
+    box-shadow: 0 4px 10px rgba(236, 231, 231, 0.74);
+}
+
+.dark .price:hover {
+    box-shadow: 0 4px 10px rgba(236, 231, 231, 0.74); 
+    transform: translateY(-10px); 
+}
