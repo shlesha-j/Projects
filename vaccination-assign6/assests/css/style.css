@@ -1,0 +1,309 @@
+:root {
+    --Montserrat-bold: 'Montserrat-bold';
+    --Montserrat-medium: 'Montserrat-medium';
+    --Montserrat-extraBold: 'Montserrat-extraBold';
+    --Montserrat-regular: 'Montserrat-regular';
+    --Montserrat-semiBold: 'Montserrat-semiBold';
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+}
+
+.container {
+    max-width: 1299px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    border: 1px solid red;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    padding: 40px 0;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.vaccination-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navLink-list {
+    display: flex;
+    /* margin-right: 180px; */
+    list-style: none;
+}
+
+.logo {
+    margin-right: 150px;
+}
+
+.nav-link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 17px 12.5px 23px 12.5px;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: var(--Montserrat-medium);
+    font-size: 24px;
+}
+
+.secondaryBtn {
+    padding: 20px 25px;
+    background: rgba(196, 196, 196, 0.10);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: var(--Montserrat-bold);
+    font-size: 24px;
+    border-radius: 20px;
+}
+
+.statusBtn{
+    color: #17C2EC;
+}
+
+.ham-menu {
+  display: none;
+  cursor: pointer;
+  width: 40px;
+  position: relative;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end; */
+}
+
+.ham-menu span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: white;
+  margin: 3px auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.ham-menu span:nth-child(2),
+.ham-menu span:nth-child(4) {
+  width: 20px;
+}
+
+
+.ham-menu.active span:nth-child(1) {
+  transform: rotate(42deg) translate(11px, 6px);
+}
+
+.ham-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.ham-menu.active span:nth-child(3) {
+  opacity: 0;
+}
+
+.ham-menu.active span:nth-child(4) {
+  width: 30px;
+  transform: rotate(-42deg) translate(11px, -7px);
+}
+
+/* --------hero - section------ */
+.heroBgImg{
+    display: block;
+    width: 100%;
+    /* height: 1024px */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575px) {
+    /* .container {
+        max-width: 100%;
+        padding: 0 16px;  Keep padding for small screens 
+    } */
+
+    .vaccination-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background: #bda6f3;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    box-shadow: -0.125rem 0 0.625rem rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    z-index: 1000;
+  }
+
+  .navLink-list {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  
+  .nav-link {
+    color: white;
+    padding: 0;
+  }
+
+  .vaccination-links.active {
+    right: 0;
+  }
+
+  .nav-item {
+    padding: 15px 0;
+  }
+
+  .navbar {
+    padding: 20px 0;
+  }
+
+  .ham-menu {
+    z-index: 1100;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-nav {
+    position: relative;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    /* .container {
+        max-width: 540px;  A comfortable width for small tablets 
+    } */
+     .vaccination-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background: #bda6f3;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    box-shadow: -0.125rem 0 0.625rem rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    z-index: 1000;
+  }
+
+  .navLink-list {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  
+  .nav-link {
+    color: white;
+    padding: 0;
+  }
+
+  .vaccination-links.active {
+    right: 0;
+  }
+
+  .nav-item {
+    padding: 15px 0;
+  }
+
+  .navbar {
+    padding: 20px 0;
+  }
+
+  .ham-menu {
+    z-index: 1100;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-nav {
+    position: relative;
+    justify-content: space-between;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* .container {
+        max-width: 720px;  Mid-sized tablets 
+    } */
+
+    .logo{
+        margin-right: 63px;
+    }
+    .nav-link{
+        font-size: 20px;
+    }
+    .secondaryBtn{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* .container {
+        max-width: 960px;  Larger tablets or smaller desktops 
+    } */
+
+    .logo{
+        margin-right: 63px;
+    }
+    .nav-link{
+        font-size: 20px;
+    }
+    .secondaryBtn{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+    /* .container {
+        max-width: 1140px;  Medium desktops 
+    } */
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+    /* .container {
+        max-width: 1320px;  Larger desktops, matching your Figma design 
+    } */
+}
+
+@media (min-width: 1920px) {
+    /* .container {
+        max-width: 1320px;  Same as the 1440px breakpoint to maintain consistency 
+    } */
+}
