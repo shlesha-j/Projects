@@ -2,63 +2,617 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assests/css/style.css">
-    <link rel="stylesheet" href="./assests/css/fonts.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./assests/css/style.css" />
+  <link rel="stylesheet" href="./assests/css/fonts.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+
 </head>
 
 <body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <div class="main-nav">
+          <div class="logo">
+            <a href="#">
+              <img src="./assests/images/logo.png" alt="Vaccination-Logo" class="vaccination-logo" width="251"
+                height="39" />
+            </a>
+          </div>
 
-    <header>
-        <nav class="navbar">
-            <div class="container">
-                <div class="main-nav">
-                    <div class="logo">
-                        <a href="#">
-                            <img src="./assests/images/logo.png" alt="Vaccination-Logo">
-                        </a>
-                    </div>
+          <div class="vaccination-links">
+            <ul class="navLink-list">
+              <li class="nav-item"><a href="" class="nav-link hover-animate">Home</a></li>
+              <li class="nav-item">
+                <a href="" class="nav-link hover-animate">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link hover-animate">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link hover-animate">Contact us</a>
+              </li>
+            </ul>
 
-                    <div class="vaccination-links">
-                        <ul class="navLink-list">
-                            <li class="nav-item"><a href="" class="nav-link">Home</a></li>
-                            <li class="nav-item"><a href="" class="nav-link">Services</a></li>
-                            <li class="nav-item"><a href="" class="nav-link">Schedule</a></li>
-                            <li class="nav-item"><a href="" class="nav-link">Contact us</a></li>
-                        </ul>
+            <button type="button" class="secondaryBtn statusBtn">
+              Check Status
+            </button>
+          </div>
+          <div class="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-                        <button type="button" class="secondaryBtn statusBtn"> Check Status</button>
-                    </div>
-                    <div class="ham-menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
+  <section class="hero-section">
+    <!-- <picture>
+        <source
+          srcset="./assests/images/desktop.png"
+          media="(min-width: 1200px)"
+        />
+        <source srcset="./assests/images/tab.png" media="(min-width: 576px)" />
+        <img
+          src="./assests/images/mobile.png"
+          alt="Responsive image for mobile"
+          class="lazy heroBgImg"
+          loading="lazy"
+        />
+      </picture> -->
+    <div class="container">
+      <div class="hero-wrapper">
+        <div class="main-hero-content">
+          <div class="hero-left-content">
+            <p class="section-lead">
+              Get Vaccinated. Boost your Immune System
+            </p>
+            <h1 class="hero-title">
+              COVID-19 Vaccination Got Easier With, <span class="highlight">Vaccination.ng</span>
+            </h1>
 
+            <p class="hero-subtitle">
+              Vaccination.ng will help you find the nearest centre for
+              vaccination, in all 36 states in Nigeria.
+            </p>
+
+            <div class="hero-actionBtns">
+              <button type="button" class="primaryBtn getVaccinatedBtn">
+                Get Vaccine
+              </button>
+              <button type="button" class="secondaryBtn helpBtn">
+                Help Centre
+              </button>
+            </div>
+          </div>
+          <div class="hero-right-content">
+            <div class="right-container">
+              <span class="sideImgBg leftsideImg"><img src="./assests/images/precaution.png" alt=""></span>
+              <span class="sideImgBg rightsideImg"><img src="./assests/images/corona.png" alt=""></span>
+
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide hero-slide">
+                    <img src="./assests/images/swiper-slide.png" alt="" class="slide">
+                  </div>
+                  <div class="swiper-slide hero-slide">
+                    <img src="./assests/images/swiper-slide.png" alt="" class="slide">
+                  </div>
                 </div>
+              </div>
+
+              <span class="specialistGroup">
+
+
+                <div class="groupImages">
+                  <img src="./assests/images/Rectangle 9.png" alt="">
+                  <img src="./assests/images/Rectangle 10.png" alt="" class="overlap">
+                  <img src="./assests/images/Rectangle 11.png" alt="" class="overlap">
+                </div>
+                <div class="groupLabel">
+                  <p class="groupTitle">20+</p>
+                  <span class="groupTitle highlight">Specialists</span>
+                </div>
+              </span>
             </div>
 
-        </nav>
-    </header>
+          </div>
+        </div>
 
-    <section class="hero-section">
-        <picture>
-            <source srcset="./assests/images/desktop.png" media="(min-width: 1200px)" />
-            <source srcset="./assests/images/tab.png" media="(min-width: 576px)" />
-            <img src="./assests/images/mobile.png" alt="Responsive image for mobile" class="lazy heroBgImg"
+        <div class="vaccination-booking">
+          <div class="booking-head">
+            <span class="icon-bg"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"
+                fill="none">
+                <path
+                  d="M14.9807 27.5C21.879 27.5 27.4711 21.9036 27.4711 15C27.4711 8.09644 21.879 2.5 14.9807 2.5C8.08249 2.5 2.49036 8.09644 2.49036 15C2.49036 21.9036 8.08249 27.5 14.9807 27.5Z"
+                  stroke="#17C2EC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M14.9807 7.5V15L19.9769 17.5" stroke="#17C2EC" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg></span>
+            <p class="booking-label">Schedule your Vaccination</p>
+          </div>
+
+          <div class="booking-shadow">
+            <div class="booking-details">
+              <div class="booking-detail">
+                <span class="icon-bg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="31" height="30" viewBox="0 0 31 30" fill="none">
+                    <path
+                      d="M27.1914 12.5C27.1914 21.25 15.95 28.75 15.95 28.75C15.95 28.75 4.70868 21.25 4.70868 12.5C4.70868 9.51631 5.89303 6.65483 8.00119 4.54505C10.1094 2.43526 12.9686 1.25 15.95 1.25C18.9314 1.25 21.7907 2.43526 23.8989 4.54505C26.007 6.65483 27.1914 9.51631 27.1914 12.5Z"
+                      stroke="#17C2EC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M15.95 16.25C18.0195 16.25 19.6971 14.5711 19.6971 12.5C19.6971 10.4289 18.0195 8.75 15.95 8.75C13.8805 8.75 12.2029 10.4289 12.2029 12.5C12.2029 14.5711 13.8805 16.25 15.95 16.25Z"
+                      stroke="#17C2EC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+                <div class="booking-info">
+                  <p class="booking-title">Location</p>
+                  <p class="booking-subtitle">Ikeja Lagos, Nigeria</p>
+
+                </div>
+
+              </div>
+              <div class="booking-detail">
+                <span class="icon-bg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="31" height="30" viewBox="0 0 31 30" fill="none">
+                    <path
+                      d="M24.4109 5H6.92441C5.54476 5 4.42633 6.11929 4.42633 7.5V25C4.42633 26.3807 5.54476 27.5 6.92441 27.5H24.4109C25.7906 27.5 26.909 26.3807 26.909 25V7.5C26.909 6.11929 25.7906 5 24.4109 5Z"
+                      stroke="#17C2EC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M20.6638 2.5V7.5" stroke="#17C2EC" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path d="M10.6715 2.5V7.5" stroke="#17C2EC" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                    <path d="M4.42633 12.5H26.909" stroke="#17C2EC" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </span>
+                <div class="booking-info">
+                  <p class="booking-title">Date</p>
+                  <p class="booking-subtitle">29 February, 2022</p>
+
+                </div>
+              </div>
+              <div class="booking-detail">
+                <span class="icon-bg">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="31" height="30" viewBox="0 0 31 30" fill="none">
+                    <path
+                      d="M15.4054 27.5C15.4054 27.5 25.3977 22.5 25.3977 15V6.25L15.4054 2.5L5.41309 6.25V15C5.41309 22.5 15.4054 27.5 15.4054 27.5Z"
+                      stroke="#17C2EC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+                <div class="booking-info">
+                  <p class="booking-title">Vaccine Type</p>
+                  <p class="booking-subtitle">Mordena</p>
+
+                </div>
+              </div>
+              <div class="booking-detail bookingBtn">
+                <button type="button" class="primaryBtn bookingSubmit">Submit</button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="marquee-section">
+    <div class="marquee">
+      <div class="marquee-content">
+        <img src="./assests/images/Moderna_logo 1.png" alt="Moderna" />
+        <img src="./assests/images/Pfizer_(2021) 1.png" alt="Pfizer" />
+        <img src="./assests/images/yellow-logo-zeneca-pharmaceutical-industry-brand 1.png" alt="AstraZeneca" />
+        <img src="./assests/images/sinovac1336 1.png" alt="Sinovac" />
+
+        <img src="./assests/images/Moderna_logo 1.png" alt="Moderna" />
+        <img src="./assests/images/Pfizer_(2021) 1.png" alt="Pfizer" />
+        <img src="./assests/images/yellow-logo-zeneca-pharmaceutical-industry-brand 1.png" alt="AstraZeneca" />
+        <img src="./assests/images/sinovac1336 1.png" alt="Sinovac" />
+
+        <img src="./assests/images/Moderna_logo 1.png" alt="Moderna" />
+        <img src="./assests/images/Pfizer_(2021) 1.png" alt="Pfizer" />
+        <img src="./assests/images/yellow-logo-zeneca-pharmaceutical-industry-brand 1.png" alt="AstraZeneca" />
+        <img src="./assests/images/sinovac1336 1.png" alt="Sinovac" />
+      </div>
+    </div>
+  </section>
+
+  <section class="form-section">
+    <!-- <picture>
+            <source srcset="./assests/images/form-section-bg-desktop (2).png" media="(min-width: 1200px)" />
+            <source srcset="./assests/images/form-section-bg-tab(3).png" media="(min-width: 576px)" />
+            <img src="./assests/images/form-section-bg-mobile (1).png" alt="Responsive image for mobile" class="lazy formBg"
                 loading="lazy"/>
-        </picture>
+        </picture> -->
+    <div class="container">
+      <div class="form-wrapper">
+        <div class="form-top">
+          <p class="form-title">Check your COVID-19 result on our Database</p>
+        </div>
+        <div class="main-form">
+          <div class="input-fields">
+          
+            <input type="text" placeholder="Name" class="name-input-field" id="uName"/>
+            <input type="text" placeholder="NIK Number" class="number-input-field" id="nikNumber"/>
+            <button class="checkBtn secondaryBtn js-button" type="button">check</button>
+          </div>
 
-    </section>
+          <div class="certificat-tag">
+            <p class="certificat-tag-text">
+              Need a certificate for your COVID-19 result? Please click
+              <a href="javascript:void(0)">here</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card-section" >
+    <div class="container">
+      <div class="card-wrapper" data-aos="fade-up">
+        <div class="content-head">
+          <h2 class="content-title">Why get vaccinated today?</h2>
+          <p class="content-subtitle">
+            Magna adipiscing at elit at ornare lectus nibh lorem. Ac, sed ac
+            lorem pellentesque vestibulum risus matti. In molestie condimentum
+            malesuada non.
+          </p>
+        </div>
+
+        <div class="card-container">
+          <div class="card">
 
 
+            <span class="icon-box">
+              <svg width="40" height="40" viewBox="0 0 51 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M25.6653 60.9044C25.6653 60.9044 48.9501 49.262 48.9501 31.7984V11.4242L25.6653 2.69238L2.38049 11.4242V31.7984C2.38049 49.262 25.6653 60.9044 25.6653 60.9044Z"
+                  stroke="white" stroke-width="3.99168" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+            <h3 class="card-title">Protects your immune
+              system against viruses</h3>
+            <p class="card-subtitle">Velit ut consectetur mauris, orci amet,
+              faucibus.
+              Sit turpis fringilla ipsum pretium,
+              dictum. Dolor eget vel nulla lorem ac.</p>
 
+            <a href="" class="learnMoreLink">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="card">
+            <span class="icon-box">
+              <svg width="40" height="40" viewBox="0 0 50 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_5_56)">
+                  <g clip-path="url(#clip1_5_56)">
+                    <path
+                      d="M35.2911 42.3555V38.2807C35.2911 36.1192 34.4324 34.0463 32.9041 32.518C31.3757 30.9896 29.3028 30.131 27.1414 30.131H10.842C8.68056 30.131 6.60766 30.9896 5.07929 32.518C3.55093 34.0463 2.69231 36.1192 2.69231 38.2807V42.3555"
+                      stroke="white" stroke-width="2.99376" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M18.9917 21.9813C23.4926 21.9813 27.1414 18.3325 27.1414 13.8316C27.1414 9.33062 23.4926 5.68188 18.9917 5.68188C14.4907 5.68188 10.842 9.33062 10.842 13.8316C10.842 18.3325 14.4907 21.9813 18.9917 21.9813Z"
+                      stroke="white" stroke-width="2.99376" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M47.5156 42.3554V38.2806C47.5142 36.4749 46.9132 34.7207 45.8069 33.2936C44.7006 31.8665 43.1517 30.8472 41.4033 30.3958"
+                      stroke="white" stroke-width="2.99376" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                      d="M33.2536 5.94678C35.0067 6.39562 36.5604 7.41515 37.67 8.84462C38.7796 10.2741 39.3819 12.0322 39.3819 13.8418C39.3819 15.6514 38.7796 17.4095 37.67 18.839C36.5604 20.2684 35.0067 21.288 33.2536 21.7368"
+                      stroke="white" stroke-width="2.99376" stroke-linecap="round" stroke-linejoin="round" />
+                  </g>
+                </g>
+                <defs>
+                  <clipPath id="clip0_5_56">
+                    <rect width="48.8981" height="48.8981" fill="white" transform="translate(0.155922 0.0686035)" />
+                  </clipPath>
+                  <clipPath id="clip1_5_56">
+                    <rect width="48.8981" height="48.8981" fill="white" transform="translate(0.654884 -0.430298)" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </span>
+            <h3 class="card-title">Minimize the spread
+              of the Virus</h3>
+            <p class="card-subtitle">Velit ut consectetur mauris, orci amet,
+              faucibus.
+              Sit turpis fringilla ipsum pretium,
+              dictum. Dolor eget vel nulla lorem ac.</p>
 
-    <script src="./assests/js/script.js"></script>
+            <a href="" class="learnMoreLink">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="card">
+            <span class="icon-box">
+              <svg width="40" height="40" viewBox="0 0 22 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.2973 29.642V6.70061C16.2973 5.34972 15.7607 4.05415 14.8054 3.09892C13.8502 2.1437 12.5546 1.60706 11.2037 1.60706C9.85284 1.60706 8.55728 2.1437 7.60205 3.09892C6.64682 4.05415 6.11018 5.34972 6.11018 6.70061V29.642C4.4747 30.7347 3.234 32.3245 2.57133 34.1765C1.90866 36.0284 1.85914 38.0444 2.4301 39.9267C3.00107 41.8089 4.16223 43.4577 5.7421 44.6294C7.32197 45.8011 9.23678 46.4337 11.2037 46.4337C13.1707 46.4337 15.0855 45.8011 16.6654 44.6294C18.2453 43.4577 19.4064 41.8089 19.9774 39.9267C20.5483 38.0444 20.4988 36.0284 19.8362 34.1765C19.1735 32.3245 17.9328 30.7347 16.2973 29.642Z"
+                  stroke="white" stroke-width="2.99376" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+            <h3 class="card-title">Protect yourself</h3>
+            <p class="card-subtitle">Velit ut consectetur mauris, orci amet,
+              faucibus.
+              Sit turpis fringilla ipsum pretium,
+              dictum. Dolor eget vel nulla lorem ac.</p>
 
+            <a href="" class="learnMoreLink">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="registration-section">
+    <div class="container">
+      <div class="registration-wrapper" >
+        <div class="content-head mobile-view">
+          <h2 class="content-title">Get your vaccine registration today</h2>
+        </div>
+
+        <div class="registration-container">
+          <div class="left-content" data-aos="zoom-out-right">
+            <div class="content-head desktop-view">
+              <h2 class="content-title">
+                Get your vaccine registration today
+              </h2>
+            </div>
+            <form action="">
+              <div class="input-box">
+                <label for="fullName" class="full-name-label">Patient's Full Name</label>
+                <input type="text" placeholder="Full name" id="fname"/>
+                <span class="error" for="fname"></span>
+              </div>
+              <div class="input-box">
+                <label for="mobileNumber" class="mobile-num-label">Mobile number</label>
+                <p class="reminder">
+                  Notifications for appointment and reminders will be sent to
+                  this provided number
+                </p>
+                <div class="verification-box">
+                  
+                   <input type="tel" id="mobile" name="mobile" class="mobileNoInput" placeholder="Phone number" maxlength="10"/>
+                    <span class="error" for="mobile"></span>
+                  <button type="button" class="primaryBtn verifyBtn">
+                    Verify
+                  </button>
+                </div>
+              </div>
+
+              <button type="button" class="submitBtn primaryBtn js-button">
+                Submit
+              </button>
+            </form>
+
+            <div class="active-links">
+              <p class="link-label">Already registered ?</p>
+              <a href="" class="check-status-link">Check your Status</a>
+            </div>
+          </div>
+          <div class="right-content">
+            <div class="img-wrapper">
+               <img src="./assests/images/vaccination-img.png" alt="" class="vaccination-img" data-aos="zoom-out-left"/>
+              <button class="secondaryBtn verify-status-btn">Verify Status</button>
+              </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="symptoms-section">
+    <div class="container">
+      <div class="symptoms-wrapper">
+        <div class="content-head">
+          <p class="content-topic">Covid-19 Prevention</p>
+          <h2 class="content-title"><span class="highlight">COVID-19 </span>Symptoms</h2>
+          <p class="content-subtitle">
+            Adipiscing nec etiam tortor elit quisque. Arcu aliquet convallis
+            aenean eu velit. Mi vestibulum, ullamcorper venenatis imperdiet
+            augue arcu donec neque.
+          </p>
+        </div>
+
+  
+        <div class="symptoms-points">
+          <div class="symptom-point top-left" data-aos="fade-right" data-aos-duration="1000">
+            <img src="assests/images/coronavirus.png" alt="High Fever" />
+            <span>High Fever</span>
+          </div>
+          <div class="symptom-point mid-left" data-aos="fade-right" data-aos-duration="1000">
+            <img src="assests/images/coronavirus.png" alt="Loss sense of smell" />
+            <span>Dry cough</span>
+          </div>
+          <div class="symptom-point bottom-left" data-aos="fade-right" data-aos-duration="1000">
+            <img src="assests/images/coronavirus.png" alt="Dry cough" />
+            <span>Loss sense of smell</span>
+          </div>
+          <div class="symptom-point top-right" data-aos="fade-left" data-aos-duration="1000">
+            <img src="assests/images/coronavirus.png" alt="Loss of sense of taste" />
+            <span>Loss of sense of taste</span>
+          </div>
+          <div class="symptom-point mid-right" data-aos="fade-left" data-aos-duration="1000">
+            <img src="assests/images/coronavirus.png" alt="Difficulty Breathing" />
+            <span>Difficulty Breathing</span>
+          </div>
+          <div class="symptom-point bottom-right" data-aos="fade-left" data-aos-duration="1000">
+            <img src="assests/images/coronavirus.png" alt="Sore Throat" />
+            <span>Sore Throat</span>
+          </div>
+          <img src="assests/images/person.png" alt="Person" class="symptom-center-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feedback-section">
+    <div class="container">
+      <div class="feedback-wrapper">
+        <div class="content-head">
+          <p class="content-topic">FEEDBACK</p>
+          <h2 class="content-title">What our Patients Think</h2>
+          <p class="content-subtitle">
+            Adipiscing nec etiam tortor elit quisque. Arcu aliquet convallis
+            aenean eu velit. Mi vestibulum, ullamcorper venenatis imperdiet
+            augue arcu donec neque.
+          </p>
+        </div>
+
+        <div class="feedback-cards">
+          <div class="feedback-card" data-aos="flip-left" data-aos-duration="1000">
+            <img src="./assests/images/vaccine-img.png" alt="" class="vaccine" />
+            <div class="feedback-details">
+              <div class="feedback-user">
+                <img src="assests/images/feedback (3).png" alt="Oyindamola Maja" class="feedback-avatar" />
+                <div class="user-details">
+                  <div class="feedback-name">Oyindamola Maja</div>
+                  <div class="feedback-location">Badagry, Lagos</div>
+                </div>
+              </div>
+              <p class="feedback-text">
+                “Been stressing about a close centre to get the
+                <span class="highlight">covid-19</span> vaccine, until I tried
+                Vaccination.ng”
+              </p>
+            </div>
+          </div>
+          <div class="feedback-card" data-aos="flip-left" data-aos-duration="1000">
+            <img src="./assests/images/vaccine-img.png" alt="" class="vaccine" />
+            <div class="feedback-details">
+              <div class="feedback-user">
+                <img src="assests/images/feedback (2).png" alt="Okewo Lekan" class="feedback-avatar" />
+                <div class="user-details">
+                  <div class="feedback-name">Okewo Lekan</div>
+                  <div class="feedback-location">Ikeja, Lagos</div>
+                </div>
+              </div>
+              <p class="feedback-text">
+                “Got my vaccine very close to my house. Was very easy
+                scheduling an appointment.”
+              </p>
+            </div>
+          </div>
+          <div class="feedback-card" data-aos="flip-left" data-aos-duration="1000">
+            <img src="./assests/images/vaccine-img.png" alt="" class="vaccine" />
+            <div class="feedback-details">
+              <div class="feedback-user">
+                <img src="assests/images/feedback (1).png" alt="Kafaru Temitope" class="feedback-avatar" />
+                <div class="user-details">
+                  <div class="feedback-name">Kafaru Temitope</div>
+                  <div class="feedback-location">Obanikoro, Lagos</div>
+                </div>
+              </div>
+              <p class="feedback-text">
+                “Been stressing about a close centre to get the
+                <span class="highlight">covid-19</span> vaccine, until I tried
+                Vaccination.ng”
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="float-container">
+          <div class="inner-container">
+            <div class="float-details">
+              <h3 class="float-title">Get a quote</h3>
+              <p class="float-subtitle">
+                Please do enter your email address below
+              </p>
+              
+              <div class="float-form">
+                <input type="email" class="float-input" id="email" placeholder="lenux.ng@gmail.com" required />
+                <button type="submit" class="float-btn js-button">
+                  <img src="./assests/images/send.png" alt="" class="send-icon" />
+                </button>
+              </div>
+              <span class="error" for="email"></span>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer data-aos="fade-up">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="logo">
+          <a href="#">
+            <img src="./assests/images/logo.png" alt="Vaccination-Logo" class="vaccination-logo" width="251"
+              height="39" />
+          </a>
+        </div>
+
+        <ul class="navLink-list footerlink-list">
+          <li class="nav-item footer-item">
+            <a href="" class="nav-link footer-link">Home</a>
+          </li>
+          <li class="nav-item footer-item">
+            <a href="" class="nav-link footer-link">Services</a>
+          </li>
+          <li class="nav-item footer-item">
+            <a href="" class="nav-link footer-link">Schedule</a>
+          </li>
+          <li class="nav-item footer-item">
+            <a href="" class="nav-link footer-link">Contact us</a>
+          </li>
+        </ul>
+
+        <div class="socials">
+          <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+              <path
+                d="M46.9583 13.3752C46.7109 12.3864 46.2068 11.4805 45.4972 10.7489C44.7875 10.0173 43.8974 9.48596 42.9167 9.2085C39.3333 8.3335 25 8.3335 25 8.3335C25 8.3335 10.6667 8.3335 7.08333 9.29183C6.1026 9.5693 5.21245 10.1007 4.5028 10.8323C3.79316 11.5639 3.28914 12.4698 3.04167 13.4585C2.38586 17.0951 2.06507 20.7841 2.08333 24.4793C2.05996 28.2023 2.38077 31.9195 3.04167 35.5835C3.3145 36.5415 3.8298 37.413 4.5378 38.1137C5.24579 38.8144 6.12254 39.3206 7.08333 39.5835C10.6667 40.5418 25 40.5418 25 40.5418C25 40.5418 39.3333 40.5418 42.9167 39.5835C43.8974 39.306 44.7875 38.7747 45.4972 38.0431C46.2068 37.3115 46.7109 36.4056 46.9583 35.4168C47.6091 31.8076 47.9298 28.1467 47.9167 24.4793C47.94 20.7563 47.6192 17.0391 46.9583 13.3752V13.3752Z"
+                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M20.3125 31.2915L32.2917 24.479L20.3125 17.6665V31.2915Z" stroke="white" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+              <path
+                d="M35.4167 4.1665H14.5833C8.83036 4.1665 4.16666 8.8302 4.16666 14.5832V35.4165C4.16666 41.1695 8.83036 45.8332 14.5833 45.8332H35.4167C41.1696 45.8332 45.8333 41.1695 45.8333 35.4165V14.5832C45.8333 8.8302 41.1696 4.1665 35.4167 4.1665Z"
+                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M33.3333 23.6876C33.5904 25.4215 33.2943 27.1923 32.487 28.7481C31.6797 30.3039 30.4024 31.5656 28.8367 32.3536C27.2711 33.1417 25.4968 33.416 23.7662 33.1375C22.0357 32.859 20.437 32.042 19.1976 30.8026C17.9582 29.5631 17.1411 27.9645 16.8626 26.2339C16.5842 24.5034 16.8585 22.7291 17.6465 21.1634C18.4346 19.5978 19.6962 18.3204 21.2521 17.5131C22.8079 16.7059 24.5787 16.4097 26.3125 16.6668C28.0811 16.9291 29.7184 17.7532 30.9827 19.0174C32.247 20.2817 33.0711 21.9191 33.3333 23.6876Z"
+                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M36.4583 13.5415H36.4792" stroke="white" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg></a>
+          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+              <path
+                d="M47.9167 6.24995C45.9216 7.6572 43.7127 8.73351 41.375 9.43745C40.1203 7.99477 38.4528 6.97223 36.598 6.50813C34.7432 6.04404 32.7906 6.16078 31.0043 6.84256C29.218 7.52435 27.6842 8.73829 26.6104 10.3202C25.5365 11.9021 24.9744 13.7757 25 15.6875V17.7708C21.3388 17.8657 17.711 17.0537 14.4396 15.4071C11.1682 13.7605 8.35482 11.3304 6.24999 8.33329C6.24999 8.33329 -2.08334 27.0833 16.6667 35.4166C12.3761 38.3291 7.2649 39.7894 2.08333 39.5833C20.8333 50 43.75 39.5833 43.75 15.625C43.7481 15.0446 43.6923 14.4658 43.5833 13.8958C45.7096 11.7989 47.2101 9.15144 47.9167 6.24995V6.24995Z"
+                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg></a>
+          <a href="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+              <path
+                d="M37.5 4.1665H31.25C28.4873 4.1665 25.8378 5.26397 23.8843 7.21748C21.9308 9.17098 20.8333 11.8205 20.8333 14.5832V20.8332H14.5833V29.1665H20.8333V45.8332H29.1667V29.1665H35.4167L37.5 20.8332H29.1667V14.5832C29.1667 14.0306 29.3862 13.5007 29.7769 13.11C30.1676 12.7193 30.6975 12.4998 31.25 12.4998H37.5V4.1665Z"
+                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js"></script>
+    <script src="./assests/js/formvalidation.js"></script>
+  <script src="./assests/js/script.js"></script>
 </body>
 
 </html>

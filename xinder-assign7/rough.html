@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero Layout</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+}
+
+.hero-section {
+  position: relative;
+  min-height: 500px;
+  background-color: #8c1c38; /* Your Figma's dark red */
+  overflow: hidden;
+  color: white;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.hero-text {
+  z-index: 2;
+}
+
+.hero-image-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: auto;
+}
+
+.hero-image-wrapper img {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .hero-section {
+    padding-top: 2rem;
+    padding-bottom: 0;
+  }
+
+  .hero-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .hero-image-wrapper img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+
+  .hero-text h1 {
+    font-size: 1.75rem;
+    line-height: 2.2rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+}
+
+
+    </style>
+  </head>
+  <body>
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Search the work of the best artists</h1>
+            <p>Explore amazing artworks from creators around the world.</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image-wrapper">
+        <img src="./assets/images/Pexels Photo by Ketut Subiyanto.png" alt="Hero" />
+      </div>
+    </section>
+  </body>
+</html>

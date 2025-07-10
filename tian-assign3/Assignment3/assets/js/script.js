@@ -1,6 +1,10 @@
 
 
 document.addEventListener('DOMContentLoaded', function () {
+
+    const loaderWrapper = document.querySelector('.wrappper');
+    
+
     const hamMenu = document.querySelector('.ham-menu');
     const navList = document.querySelector('.tian-links');
 
