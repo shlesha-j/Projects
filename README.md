@@ -1,4 +1,5 @@
-🚀 Frontend Training Projects
+# 🚀 Frontend Training Projects
+
 This repository contains the frontend projects I built during my training period.
 All projects are developed using HTML, CSS, JavaScript, and Bootstrap and are fully responsive.
 
