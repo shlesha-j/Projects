@@ -6,12 +6,71 @@ These projects helped me strengthen my fundamentals in UI development, layout st
 
 🛠 Tech Stack
 
-HTML5
+  👉 HTML5
+  
+  👉 CSS3
+  
+  👉 JavaScript (Vanilla JS)
+  
+  👉 Bootstrap
+  
+  👉 Responsive Web Design
 
-CSS3
+📂 Live Projects
+🔹 Xinder
 
-JavaScript (Vanilla JS)
+🔗 Live Demo: https://superlative-tapioca-ad03cf.netlify.app/
 
-Bootstrap
+Description:
+Landing page project with structured layout and interactive elements using JavaScript.
 
-Responsive Web Design
+
+🔹 Tian
+
+🔗 Live Demo: https://lucent-capybara-4985af.netlify.app/
+
+Description:
+A clean and minimal UI website featuring a modern layout with Dark Mode support.
+Built with responsive sections and smooth visual styling to enhance user experience across devices.
+
+Key Features:
+
+🌙 Dark Mode / Light Mode toggle
+📱 Fully Responsive Design
+🎨 Modern and minimal UI
+⚡ Smooth layout transitions
+
+🔹 Vaccination
+
+🔗 Live Demo: https://bespoke-faloodeh-e5b36e.netlify.app/
+
+Description:
+Healthcare-themed responsive website focusing on structured content and layout design.
+
+🔹 Velocity
+
+🔗 Live Demo: https://illustrious-gumption-9a044b.netlify.app/
+
+Description:
+Multi-section responsive website with Bootstrap grid and custom styling.
+
+
+📱 Features Across Projects
+
+✔ Fully Responsive Design
+✔ Clean and Structured Code
+✔ Bootstrap Grid System
+✔ Cross-browser Compatible
+✔ Deployed on Netlify
+
+🎯 Skills Strengthened
+
+✔ Semantic HTML structuring
+✔ Responsive CSS layouts
+✔ Bootstrap components
+✔ JavaScript DOM manipulation
+✔ UI section building
+✔ Deployment using Netlify
+
+⭐ If you like this repository
+Feel free to star ⭐ the repo and connect with me!
