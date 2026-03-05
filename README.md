@@ -20,7 +20,7 @@ These projects helped me strengthen my fundamentals in UI development, layout st
 📂 Live Projects
 🔹 Xinder
 
-🔗 Live Demo: https://superlative-tapioca-ad03cf.netlify.app/
+🔗 Live Demo: https://super-medovik-090626.netlify.app/
 
 Description:
 Landing page project with structured layout and interactive elements using JavaScript.
@@ -28,7 +28,7 @@ Landing page project with structured layout and interactive elements using JavaS
 
 🔹 Tian
 
-🔗 Live Demo: https://lucent-capybara-4985af.netlify.app/
+🔗 Live Demo: https://thriving-cuchufli-1c6078.netlify.app/
 
 Description:
 A clean and minimal UI website featuring a modern layout with Dark Mode support.
@@ -43,7 +43,7 @@ Key Features:
 
 🔹 Vaccination
 
-🔗 Live Demo: https://bespoke-faloodeh-e5b36e.netlify.app/
+🔗 Live Demo: https://chic-twilight-fc85cc.netlify.app/
 
 Description:
 Healthcare-themed responsive website focusing on structured content and layout design.
